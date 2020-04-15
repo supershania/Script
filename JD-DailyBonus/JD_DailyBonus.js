@@ -101,14 +101,14 @@ async function all() {
       JingDongWomen(stop), //京东女装馆
       JingDongFish(stop), //京东小京鱼
       JingDongCash(stop), //京东现金红包
-      //JingDongShoes(stop), //京东鞋靴馆
+      JingDongShoes(stop), //京东鞋靴馆
       JingDongFood(stop), //京东美食馆
       JingRSeeAds(stop), //金融看广告
       JingRongGame(stop), //金融游戏大厅
       JingDongLive(stop), //京东智能生活馆
       JingDongClean(stop), //京东清洁馆
       JDPersonalCare(stop), //京东个人护理馆
-      //JDMagicCube(stop), //京东小魔方
+      JDMagicCube(stop), //京东小魔方
       JingDongPrize(stop), //京东抽大奖
       JingDongShake(stop) //京东摇一摇
     ])
@@ -128,9 +128,9 @@ async function all() {
     await JingDMakeup(stop); //京东美妆馆
     await JingDongWomen(stop); //京东女装馆
     await JingDongFish(stop); //京东小京鱼
-    //await JDMagicCube(stop); //京东小魔方
+    await JDMagicCube(stop); //京东小魔方
     await JingDongCash(stop); //京东现金红包
-    //await JingDongShoes(stop); //京东鞋靴馆
+    await JingDongShoes(stop); //京东鞋靴馆
     await JingDongFood(stop); //京东美食馆
     await JingRSeeAds(stop); //金融看广告
     await JingRongGame(stop); //金融游戏大厅
